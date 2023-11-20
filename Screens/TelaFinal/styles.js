@@ -1,0 +1,43 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems:"center",
+        justifyContent:"center"
+    },textoInicial:{
+        color:"#333333",
+        fontSize:20,
+        fontWeight:"bold",
+        marginBottom:35
+    },textoGrande:{
+        color:"#333333",
+        fontSize:48,
+        fontWeight:"bold",
+        marginBottom:4
+    },textoPqn:{
+        color:"#6F6B73",
+        fontSize:28,
+        fontWeight:"bold",
+        marginBottom:12
+    },dados:{
+        height:"80%",
+        justifyContent:"center"
+    },botao:{
+        width:176,
+        height:48,
+        backgroundColor:"#01633D",
+        justifyContent:"center",
+        alignItems:"center",
+        borderRadius:12
+    },textoBotao:{
+        color:"white",
+        fontWeight:"bold",
+        fontSize:24
+    },botoes:{
+        flexDirection:"row",
+        width:"100%",
+        gap:4,
+        justifyContent:"center"
+    }
+})
